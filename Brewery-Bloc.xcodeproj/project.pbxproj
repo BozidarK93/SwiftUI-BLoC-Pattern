@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C87ABE525B39846005C52A4 /* Brewery_BlocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87ABE425B39846005C52A4 /* Brewery_BlocApp.swift */; };
+		9C87ABE725B39846005C52A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87ABE625B39846005C52A4 /* ContentView.swift */; };
+		9C87ABE925B39848005C52A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C87ABE825B39848005C52A4 /* Assets.xcassets */; };
+		9C87ABEC25B39848005C52A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C87ABEB25B39848005C52A4 /* Preview Assets.xcassets */; };
+		9C87ABF725B39848005C52A4 /* Brewery_BlocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87ABF625B39848005C52A4 /* Brewery_BlocTests.swift */; };
+		9C87AC0225B39848005C52A4 /* Brewery_BlocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87AC0125B39848005C52A4 /* Brewery_BlocUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C87ABF325B39848005C52A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C87ABD925B39846005C52A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C87ABE025B39846005C52A4;
+			remoteInfo = "Brewery-Bloc";
+		};
+		9C87ABFE25B39848005C52A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C87ABD925B39846005C52A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C87ABE025B39846005C52A4;
+			remoteInfo = "Brewery-Bloc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C87ABE125B39846005C52A4 /* Brewery-Bloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brewery-Bloc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C87ABE425B39846005C52A4 /* Brewery_BlocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brewery_BlocApp.swift; sourceTree = "<group>"; };
+		9C87ABE625B39846005C52A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C87ABE825B39848005C52A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C87ABEB25B39848005C52A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C87ABED25B39848005C52A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C87ABF225B39848005C52A4 /* Brewery-BlocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brewery-BlocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C87ABF625B39848005C52A4 /* Brewery_BlocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brewery_BlocTests.swift; sourceTree = "<group>"; };
+		9C87ABF825B39848005C52A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C87ABFD25B39848005C52A4 /* Brewery-BlocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brewery-BlocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C87AC0125B39848005C52A4 /* Brewery_BlocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brewery_BlocUITests.swift; sourceTree = "<group>"; };
+		9C87AC0325B39848005C52A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C87ABDE25B39846005C52A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C87ABEF25B39848005C52A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C87ABFA25B39848005C52A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C87ABD825B39846005C52A4 = {
+			isa = PBXGroup;
+			children = (
+				9C87ABE325B39846005C52A4 /* Brewery-Bloc */,
+				9C87ABF525B39848005C52A4 /* Brewery-BlocTests */,
+				9C87AC0025B39848005C52A4 /* Brewery-BlocUITests */,
+				9C87ABE225B39846005C52A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C87ABE225B39846005C52A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C87ABE125B39846005C52A4 /* Brewery-Bloc.app */,
+				9C87ABF225B39848005C52A4 /* Brewery-BlocTests.xctest */,
+				9C87ABFD25B39848005C52A4 /* Brewery-BlocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C87ABE325B39846005C52A4 /* Brewery-Bloc */ = {
+			isa = PBXGroup;
+			children = (
+				9C87ABE425B39846005C52A4 /* Brewery_BlocApp.swift */,
+				9C87ABE625B39846005C52A4 /* ContentView.swift */,
+				9C87ABE825B39848005C52A4 /* Assets.xcassets */,
+				9C87ABED25B39848005C52A4 /* Info.plist */,
+				9C87ABEA25B39848005C52A4 /* Preview Content */,
+			);
+			path = "Brewery-Bloc";
+			sourceTree = "<group>";
+		};
+		9C87ABEA25B39848005C52A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C87ABEB25B39848005C52A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C87ABF525B39848005C52A4 /* Brewery-BlocTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C87ABF625B39848005C52A4 /* Brewery_BlocTests.swift */,
+				9C87ABF825B39848005C52A4 /* Info.plist */,
+			);
+			path = "Brewery-BlocTests";
+			sourceTree = "<group>";
+		};
+		9C87AC0025B39848005C52A4 /* Brewery-BlocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C87AC0125B39848005C52A4 /* Brewery_BlocUITests.swift */,
+				9C87AC0325B39848005C52A4 /* Info.plist */,
+			);
+			path = "Brewery-BlocUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C87ABE025B39846005C52A4 /* Brewery-Bloc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C87AC0625B39848005C52A4 /* Build configuration list for PBXNativeTarget "Brewery-Bloc" */;
+			buildPhases = (
+				9C87ABDD25B39846005C52A4 /* Sources */,
+				9C87ABDE25B39846005C52A4 /* Frameworks */,
+				9C87ABDF25B39846005C52A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brewery-Bloc";
+			productName = "Brewery-Bloc";
+			productReference = 9C87ABE125B39846005C52A4 /* Brewery-Bloc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C87ABF125B39848005C52A4 /* Brewery-BlocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C87AC0925B39848005C52A4 /* Build configuration list for PBXNativeTarget "Brewery-BlocTests" */;
+			buildPhases = (
+				9C87ABEE25B39848005C52A4 /* Sources */,
+				9C87ABEF25B39848005C52A4 /* Frameworks */,
+				9C87ABF025B39848005C52A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C87ABF425B39848005C52A4 /* PBXTargetDependency */,
+			);
+			name = "Brewery-BlocTests";
+			productName = "Brewery-BlocTests";
+			productReference = 9C87ABF225B39848005C52A4 /* Brewery-BlocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C87ABFC25B39848005C52A4 /* Brewery-BlocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C87AC0C25B39848005C52A4 /* Build configuration list for PBXNativeTarget "Brewery-BlocUITests" */;
+			buildPhases = (
+				9C87ABF925B39848005C52A4 /* Sources */,
+				9C87ABFA25B39848005C52A4 /* Frameworks */,
+				9C87ABFB25B39848005C52A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C87ABFF25B39848005C52A4 /* PBXTargetDependency */,
+			);
+			name = "Brewery-BlocUITests";
+			productName = "Brewery-BlocUITests";
+			productReference = 9C87ABFD25B39848005C52A4 /* Brewery-BlocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C87ABD925B39846005C52A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9C87ABE025B39846005C52A4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					9C87ABF125B39848005C52A4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9C87ABE025B39846005C52A4;
+					};
+					9C87ABFC25B39848005C52A4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9C87ABE025B39846005C52A4;
+					};
+				};
+			};
+			buildConfigurationList = 9C87ABDC25B39846005C52A4 /* Build configuration list for PBXProject "Brewery-Bloc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C87ABD825B39846005C52A4;
+			productRefGroup = 9C87ABE225B39846005C52A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C87ABE025B39846005C52A4 /* Brewery-Bloc */,
+				9C87ABF125B39848005C52A4 /* Brewery-BlocTests */,
+				9C87ABFC25B39848005C52A4 /* Brewery-BlocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C87ABDF25B39846005C52A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C87ABEC25B39848005C52A4 /* Preview Assets.xcassets in Resources */,
+				9C87ABE925B39848005C52A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C87ABF025B39848005C52A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C87ABFB25B39848005C52A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C87ABDD25B39846005C52A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C87ABE725B39846005C52A4 /* ContentView.swift in Sources */,
+				9C87ABE525B39846005C52A4 /* Brewery_BlocApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C87ABEE25B39848005C52A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C87ABF725B39848005C52A4 /* Brewery_BlocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C87ABF925B39848005C52A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C87AC0225B39848005C52A4 /* Brewery_BlocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C87ABF425B39848005C52A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C87ABE025B39846005C52A4 /* Brewery-Bloc */;
+			targetProxy = 9C87ABF325B39848005C52A4 /* PBXContainerItemProxy */;
+		};
+		9C87ABFF25B39848005C52A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C87ABE025B39846005C52A4 /* Brewery-Bloc */;
+			targetProxy = 9C87ABFE25B39848005C52A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C87AC0425B39848005C52A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C87AC0525B39848005C52A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C87AC0725B39848005C52A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brewery-Bloc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Brewery-Bloc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brewery-Bloc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C87AC0825B39848005C52A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brewery-Bloc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Brewery-Bloc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brewery-Bloc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C87AC0A25B39848005C52A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brewery-BlocTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brewery-BlocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brewery-Bloc.app/Brewery-Bloc";
+			};
+			name = Debug;
+		};
+		9C87AC0B25B39848005C52A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brewery-BlocTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brewery-BlocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brewery-Bloc.app/Brewery-Bloc";
+			};
+			name = Release;
+		};
+		9C87AC0D25B39848005C52A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brewery-BlocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brewery-BlocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brewery-Bloc";
+			};
+			name = Debug;
+		};
+		9C87AC0E25B39848005C52A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brewery-BlocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brewery-BlocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brewery-Bloc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C87ABDC25B39846005C52A4 /* Build configuration list for PBXProject "Brewery-Bloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C87AC0425B39848005C52A4 /* Debug */,
+				9C87AC0525B39848005C52A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C87AC0625B39848005C52A4 /* Build configuration list for PBXNativeTarget "Brewery-Bloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C87AC0725B39848005C52A4 /* Debug */,
+				9C87AC0825B39848005C52A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C87AC0925B39848005C52A4 /* Build configuration list for PBXNativeTarget "Brewery-BlocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C87AC0A25B39848005C52A4 /* Debug */,
+				9C87AC0B25B39848005C52A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C87AC0C25B39848005C52A4 /* Build configuration list for PBXNativeTarget "Brewery-BlocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C87AC0D25B39848005C52A4 /* Debug */,
+				9C87AC0E25B39848005C52A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C87ABD925B39846005C52A4 /* Project object */;
+}
