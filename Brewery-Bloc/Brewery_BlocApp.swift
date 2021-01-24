@@ -11,7 +11,7 @@ import SwiftUI
 struct Brewery_BlocApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BrewerySearchView(bloc: BreweryBloc())
         }
     }
 }
